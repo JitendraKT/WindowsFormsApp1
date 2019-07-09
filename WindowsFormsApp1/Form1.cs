@@ -40,6 +40,7 @@ namespace WindowsFormsApp1
             {
                 string content = reader.ReadToEnd();
                 count = content.Length;
+                string test = string.Empty;
                 // Make the program look busy for 5 seconds
                 Thread.Sleep(15000);
             }
